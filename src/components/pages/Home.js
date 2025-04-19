@@ -11,6 +11,7 @@ const Home = () => {
         <>
             <Stack direction="horizontal" className="mb-4">
                 <h1 className="me-auto">All posts</h1>
+                <Link to="/post/add" className="btn btn-outline-primary">Add post</Link>
             </Stack>
             <Container>
                 <Row>

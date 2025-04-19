@@ -1,5 +1,17 @@
+import { Container, Row, Col } from "react-bootstrap";
+import AddPostForm from "../features/AddPostForm";
+
 const AddPost = () => {
-    return <h1>AddPost</h1>
-}
+  return (
+    <Container>
+      <Row>
+        <Col md={{ span: 8, offset: 2 }}>
+          <h1 className="mb-4">Add Post</h1>
+          <AddPostForm />
+        </Col>
+      </Row>
+    </Container>
+  )
+};
 
 export default AddPost;
