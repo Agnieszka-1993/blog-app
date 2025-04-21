@@ -17,7 +17,7 @@ const AddPostForm = () => {
     const navigate = useNavigate();
 
 	const [contentError, setContentError] = useState(false);
-  const [dateError, setDateError] = useState(false);
+    const [dateError, setDateError] = useState(false);
 
 	const { register, handleSubmit: validate, setValue, watch, formState: { errors } } = useForm({
 		defaultValues: {
